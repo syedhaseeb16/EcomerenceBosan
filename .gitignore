@@ -2,13 +2,17 @@
 /public/hot
 /public/storage
 /storage/*.key
+/vendor
 .DS_Store
 Thumbs.db
 /bower_components
+.env
 .env.backup
 /.idea
 /.vscode
 /.vagrant
+Homestead.json
+Homestead.yaml
 npm-debug.log
 sftp-config.json
 .phpstorm.meta.php
@@ -20,8 +24,10 @@ __MACOSX
 /.phpintel
 /.php_cs.cache
 
+public/vendor/core
 
 _ide_helper.php
+package-lock.json
 yarn.lock
 /.sass-cache
 
@@ -37,3 +43,4 @@ resources/docs
 
 /log
 
+storage/framework/laravel-excel/
